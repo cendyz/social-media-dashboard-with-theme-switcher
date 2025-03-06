@@ -73,7 +73,7 @@ function __VLS_template() {
             }
             var $event = _a[0];
             __VLS_ctx.isLight = !__VLS_ctx.isLight;
-        } }, { type: ("button") }), { class: ("py-[1.5rem] px-[3rem] rounded-badge relative before:absolute before:w-[2.2rem] before:h-[2.2rem] before:rounded-full before:translate-y-[-50%] before:top-1/2 before:translate-x-[-50%] before:transition-all before:duration-300 dark:bg-gradient-to-r lg:cursor-pointer") }), { class: (([
+        } }, { type: ("button"), 'aria-label': ("toggle theme button") }), { class: ("py-[1.5rem] px-[3rem] rounded-badge relative before:absolute before:w-[2.2rem] before:h-[2.2rem] before:rounded-full before:translate-y-[-50%] before:top-1/2 before:translate-x-[-50%] before:transition-all before:duration-300 dark:bg-gradient-to-r lg:cursor-pointer") }), { class: (([
             __VLS_ctx.isLight
                 ? 'before:left-[75%] before:bg-dark-whiteText bg-light-toggle'
                 : 'before:left-[25%] before:dark:bg-light-darkText dark:from-dark-bFrom dark:to-dark-bTo',

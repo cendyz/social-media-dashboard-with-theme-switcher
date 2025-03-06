@@ -9,7 +9,7 @@
 		<div class="mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem]" :class="!isLight && 'colorHover'">
 			<p class="text-light-text font-w700 dark:text-dark-text transition-colors select-none:">Dark Mode</p>
 			<button
-				type="button"
+				type="button" aria-label="toggle theme button"
 				@click="isLight = !isLight"
 				class="py-[1.5rem] px-[3rem] rounded-badge relative before:absolute before:w-[2.2rem] before:h-[2.2rem] before:rounded-full before:translate-y-[-50%] before:top-1/2 before:translate-x-[-50%] before:transition-all before:duration-300 dark:bg-gradient-to-r lg:cursor-pointer"
 				:class="[
