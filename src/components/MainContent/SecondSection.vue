@@ -1,18 +1,23 @@
 <template>
-	<section class="grid gap-y-[2rem]">
+	<section>
 		<h2 class="text-[2.5rem] font-w700 pb-[2.2rem]">Overview - Today</h2>
-		<div v-for="(item, index) in data" :key="index" class="p-[2.5rem] bg-light-cardBg rounded-xl grid gap-y-[2.8rem] dark:bg-dark-cardBg">
-			<div class="flex items-center justify-between">
-				<p class="font-w700 text-light-text dark:text-dark-text">{{ item.title }}</p>
-				<img :src="item.img" alt="facebook" class="w-[2.2rem]" />
-			</div>
-			<div class="flex items-center justify-between">
-				<p class="font-w700 text-[4rem] text-light-darkText leading-[1] dark:text-dark-whiteText">{{ item.num }}</p>
-				<div class="flex items-center gap-x-[.5rem]">
-					<img :src="item.arrow" alt="up" class="w-[1rem]" />
-					<p class="font-w700" :class="item.arrow === up ? 'text-primary-limeGreen' : 'text-primary-brightRed'">
-						{{ item.procent }}%
-					</p>
+		<div class="grid gap-y-[2rem] md:flex md:flex-wrap md:justify-center md:gap-[3rem] xl:justify-between">
+			<div
+				v-for="(item, index) in data"
+				:key="index"
+				class="p-[2.5rem] bg-light-cardBg rounded-xl grid gap-y-[2.8rem] dark:bg-dark-cardBg md:w-[28rem]">
+				<div class="flex items-center justify-between">
+					<p class="font-w700 text-light-text dark:text-dark-text">{{ item.title }}</p>
+					<img :src="item.img" alt="facebook" class="w-[2.2rem]" />
+				</div>
+				<div class="flex items-center justify-between">
+					<p class="font-w700 text-[4rem] text-light-darkText leading-[1] dark:text-dark-whiteText">{{ item.num }}</p>
+					<div class="flex items-center gap-x-[.5rem]">
+						<img :src="item.arrow" alt="up" class="w-[1rem]" />
+						<p class="font-w700" :class="item.arrow === up ? 'text-primary-limeGreen' : 'text-primary-brightRed'">
+							{{ item.procent }}%
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,10 +1,12 @@
 <template>
-	<nav class="px-[3rem] py-[5rem]">
-		<div class="pb-[2rem] border-b-[1px] border-light-darkText dark:border-light-text">
-			<h1 class="font-w700 text-light-darkText text-[2.5rem] dark:text-dark-whiteText">Social Media Dashboard</h1>
-			<p class="font-w700 text-light-text dark:text-dark-text">Total Followers: 23,004</p>
+	<nav class="px-[3rem] py-[5rem] container md:flex md:items-center md:justify-between">
+		<div class="pb-[2rem] border-b-[1px] border-light-darkText dark:border-light-text md:border-none md:pb-0">
+			<h1 class="font-w700 text-light-darkText text-[2.5rem] md:text-[3.3rem] dark:text-dark-whiteText">
+				Social Media Dashboard
+			</h1>
+			<p class="font-w700 text-light-text dark:text-dark-text md:text-[1.7rem]">Total Followers: 23,004</p>
 		</div>
-		<div class="mt-[2.3rem] flex justify-between items-center">
+		<div class="mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem]">
 			<p class="text-light-text font-w700 dark:text-dark-text">Dark Mode</p>
 			<button
 				type="button"
