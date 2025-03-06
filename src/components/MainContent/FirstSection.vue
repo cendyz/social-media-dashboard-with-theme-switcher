@@ -5,7 +5,7 @@
 			:key="index"
 			class="pt-[.5rem] text-center rounded-xl overflow-hidden"
 			:class="item.border">
-			<div class="bg-light-cardBg h-full py-[2.5rem] dark:bg-dark-cardBg md:w-[28rem]">
+			<div class="bg-light-cardBg h-full py-[2.5rem] dark:bg-dark-cardBg md:w-[28rem] lg:hover:bg-light-hover lg:cursor-pointer dark:lg:hover:bg-dark-hover">
 				<div class="flex items-center justify-center gap-x-[1rem] mb-[2.5rem]">
 					<img :src="item.img" alt="facebook logo" class="block w-[2rem]" />
 					<p class="font-w700 text-light-text dark:text-dark-text pt-[.5rem]">{{ item.name }}</p>

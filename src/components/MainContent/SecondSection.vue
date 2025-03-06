@@ -5,9 +5,9 @@
 			<div
 				v-for="(item, index) in data"
 				:key="index"
-				class="p-[2.5rem] bg-light-cardBg rounded-xl grid gap-y-[2.8rem] dark:bg-dark-cardBg md:w-[28rem]">
+				class="p-[2.5rem] bg-light-cardBg rounded-xl grid gap-y-[2.8rem] dark:bg-dark-cardBg md:w-[28rem] lg:hover:bg-light-hover dark:lg:hover:bg-dark-hover lg:cursor-pointer">
 				<div class="flex items-center justify-between">
-					<p class="font-w700 text-light-text dark:text-dark-text">{{ item.title }}</p>
+					<p class="font-w700 text-light-text  dark:text-dark-text">{{ item.title }}</p>
 					<img :src="item.img" alt="facebook" class="w-[2.2rem]" />
 				</div>
 				<div class="flex items-center justify-between">

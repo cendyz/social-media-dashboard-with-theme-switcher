@@ -6,16 +6,19 @@
 			</h1>
 			<p class="font-w700 text-light-text dark:text-dark-text md:text-[1.7rem]">Total Followers: 23,004</p>
 		</div>
-		<div class="mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem]">
-			<p class="text-light-text font-w700 dark:text-dark-text">Dark Mode</p>
+		<div class="mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem] group">
+			<p
+				class="text-light-text font-w700 dark:text-dark-text dark:group-hover:text-dark-whiteText transition-colors select-none">
+				Dark Mode
+			</p>
 			<button
 				type="button"
 				@click="isLight = !isLight"
-				class="py-[1.5rem] px-[3rem] rounded-badge relative before:absolute before:w-[2.2rem] before:h-[2.2rem] before:rounded-full before:translate-y-[-50%] before:top-1/2 before:translate-x-[-50%] before:transition-all before:duration-300"
+				class="py-[1.5rem] px-[3rem] rounded-badge relative before:absolute before:w-[2.2rem] before:h-[2.2rem] before:rounded-full before:translate-y-[-50%] before:top-1/2 before:translate-x-[-50%] before:transition-all before:duration-300 dark:bg-gradient-to-r lg:cursor-pointer"
 				:class="[
 					isLight
 						? 'before:left-[75%] before:bg-dark-whiteText bg-light-toggle'
-						: 'before:left-[25%] before:dark:bg-light-darkText dark:bg-primary-limeGreen',
+						: 'before:left-[25%] before:dark:bg-light-darkText dark:from-dark-bFrom dark:to-dark-bTo',
 				]"></button>
 		</div>
 	</nav>
@@ -45,4 +48,4 @@ watch(isLight, newValue => {
 })
 </script>
 
-<style scoped></style>
+<style scoped lang="scss"></style>

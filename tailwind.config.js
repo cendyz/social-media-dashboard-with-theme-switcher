@@ -28,7 +28,8 @@ export default {
 				gradient: {
 					instagramFrom: 'hsl(37, 97%, 70%)',
 					instagramTo: 'hsl(329, 70%, 58%)',
-					darkToggle: ['hsl(210, 78%, 56%)', 'hsl(146, 68%, 55%)'],
+					bFrom: 'hsl(210, 78%, 56%)',
+					bTo: 'hsl(146, 68%, 55%)'
 				},
 				dark: {
 					bg: 'hsl(230, 17%, 14%)',
@@ -36,6 +37,9 @@ export default {
 					cardBg: 'hsl(228, 28%, 20%)',
 					text: 'hsl(228, 34%, 66%)',
 					whiteText: 'hsl(0, 0%, 100%)',
+					hover: '#333a56',
+					bFrom: 'hsl(210, 78%, 56%)',
+					bTo: 'hsl(146, 68%, 55%)'
 				},
 				light: {
 					bg: 'hsl(0, 0%, 100%)',
@@ -44,6 +48,7 @@ export default {
 					text: 'hsl(228, 12%, 44%)',
 					darkText: 'hsl(230, 17%, 14%)',
 					toggle: 'hsl(230, 22%, 74%)',
+					hover: '#e2e3f1',
 				},
 			},
 		},
