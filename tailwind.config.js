@@ -26,7 +26,8 @@ export default {
 					youtube: 'hsl(348, 97%, 39%)',
 				},
 				gradient: {
-					instagram: ['hsl(37, 97%, 70%)', 'hsl(329, 70%, 58%)'],
+					instagramFrom: 'hsl(37, 97%, 70%)',
+					instagramTo: 'hsl(329, 70%, 58%)',
 					darkToggle: ['hsl(210, 78%, 56%)', 'hsl(146, 68%, 55%)'],
 				},
 				dark: {

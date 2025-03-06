@@ -1,12 +1,11 @@
 <template>
-	<Nav  />
+	<Nav />
+	<Main />
 </template>
 
 <script setup lang="ts">
 import Nav from './components/Nav.vue'
-import { Ref, ref, watch } from 'vue'
-
-
+import Main from './components/MainContent/Main.vue'
 </script>
 
 <style lang="scss">
