@@ -5,13 +5,13 @@
 			:key="index"
 			class="pt-[.5rem] text-center rounded-xl overflow-hidden"
 			:class="item.border">
-			<div class="bg-light-cardBg h-full py-[2.5rem]">
+			<div class="bg-light-cardBg h-full py-[2.5rem] dark:bg-dark-cardBg">
 				<div class="flex items-center justify-center gap-x-[1rem] mb-[2.5rem]">
 					<img :src="item.img" alt="facebook logo" class="block w-[2rem]" />
-					<p class="font-w700 text-light-text pt-[.5rem]">{{ item.name }}</p>
+					<p class="font-w700 text-light-text dark:text-dark-text pt-[.5rem] ">{{ item.name }}</p>
 				</div>
-				<p class="text-light-darkText font-w700 text-[7rem] leading-[1]">{{ item.date }}</p>
-				<p class="uppercase text-light-text font-w400 tracking-[4px]">
+				<p class="text-light-darkText font-w700 text-[7rem] leading-[1] dark:text-dark-whiteText">{{ item.date }}</p>
+				<p class="uppercase text-light-text dark:text-dark-text font-w400 tracking-[4px]">
 					{{ index == 3 ? 'subscribers' : 'followers' }}
 				</p>
 				<div class="flex items-center justify-center mt-[2rem] gap-x-[.6rem]">

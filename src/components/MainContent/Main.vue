@@ -1,5 +1,5 @@
 <template>
-	<main class="px-[3rem] grid gap-y-[7rem]">
+	<main class="px-[3rem] pb-[5rem] grid gap-y-[7rem]">
 		<FirstSection />
 		<SecondSection />
 	</main>

@@ -1,11 +1,11 @@
 <template>
 	<nav class="px-[3rem] py-[5rem]">
-		<div class="pb-[2rem] border-b-[1px] border-light-darkText">
-			<h1 class="font-w700 text-light-darkText text-[2.5rem]">Social Media Dashboard</h1>
-			<p class="font-w700 text-light-text">Total Followers: 23,004</p>
+		<div class="pb-[2rem] border-b-[1px] border-light-darkText dark:border-light-text">
+			<h1 class="font-w700 text-light-darkText text-[2.5rem] dark:text-dark-whiteText">Social Media Dashboard</h1>
+			<p class="font-w700 text-light-text dark:text-dark-text">Total Followers: 23,004</p>
 		</div>
 		<div class="mt-[2.3rem] flex justify-between items-center">
-			<p class="text-light-text font-w700">Dark Mode</p>
+			<p class="text-light-text font-w700 dark:text-dark-text">Dark Mode</p>
 			<button
 				type="button"
 				@click="isLight = !isLight"
