@@ -64,8 +64,8 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)(__assign({ class: ("pb-[2rem] border-b-[1px] border-light-darkText dark:border-light-text md:border-none md:pb-0") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h1, __VLS_intrinsicElements.h1)(__assign({ class: ("font-w700 text-light-darkText text-[2.5rem] md:text-[3.3rem] dark:text-dark-whiteText") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)(__assign({ class: ("font-w700 text-light-text dark:text-dark-text md:text-[1.7rem]") }));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)(__assign({ class: ("mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem] group") }));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)(__assign({ class: ("text-light-text font-w700 dark:text-dark-text dark:group-hover:text-dark-whiteText transition-colors select-none") }));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)(__assign({ class: ("mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem]") }, { class: ((!__VLS_ctx.isLight && 'colorHover')) }));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)(__assign({ class: ("text-light-text font-w700 dark:text-dark-text transition-colors select-none:") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)(__assign(__assign(__assign({ onClick: function () {
             var _a = [];
             for (var _i = 0; _i < arguments.length; _i++) {
@@ -78,7 +78,7 @@ function __VLS_template() {
                 ? 'before:left-[75%] before:bg-dark-whiteText bg-light-toggle'
                 : 'before:left-[25%] before:dark:bg-light-darkText dark:from-dark-bFrom dark:to-dark-bTo',
         ])) }));
-    ['px-[3rem]', 'py-[5rem]', 'container', 'md:flex', 'md:items-center', 'md:justify-between', 'pb-[2rem]', 'border-b-[1px]', 'border-light-darkText', 'dark:border-light-text', 'md:border-none', 'md:pb-0', 'font-w700', 'text-light-darkText', 'text-[2.5rem]', 'md:text-[3.3rem]', 'dark:text-dark-whiteText', 'font-w700', 'text-light-text', 'dark:text-dark-text', 'md:text-[1.7rem]', 'mt-[2.3rem]', 'flex', 'justify-between', 'items-center', 'md:gap-x-[1.7rem]', 'group', 'text-light-text', 'font-w700', 'dark:text-dark-text', 'dark:group-hover:text-dark-whiteText', 'transition-colors', 'select-none', 'py-[1.5rem]', 'px-[3rem]', 'rounded-badge', 'relative', 'before:absolute', 'before:w-[2.2rem]', 'before:h-[2.2rem]', 'before:rounded-full', 'before:translate-y-[-50%]', 'before:top-1/2', 'before:translate-x-[-50%]', 'before:transition-all', 'before:duration-300', 'dark:bg-gradient-to-r', 'lg:cursor-pointer',];
+    ['px-[3rem]', 'py-[5rem]', 'container', 'md:flex', 'md:items-center', 'md:justify-between', 'pb-[2rem]', 'border-b-[1px]', 'border-light-darkText', 'dark:border-light-text', 'md:border-none', 'md:pb-0', 'font-w700', 'text-light-darkText', 'text-[2.5rem]', 'md:text-[3.3rem]', 'dark:text-dark-whiteText', 'font-w700', 'text-light-text', 'dark:text-dark-text', 'md:text-[1.7rem]', 'mt-[2.3rem]', 'flex', 'justify-between', 'items-center', 'md:gap-x-[1.7rem]', 'text-light-text', 'font-w700', 'dark:text-dark-text', 'transition-colors', 'select-none:', 'py-[1.5rem]', 'px-[3rem]', 'rounded-badge', 'relative', 'before:absolute', 'before:w-[2.2rem]', 'before:h-[2.2rem]', 'before:rounded-full', 'before:translate-y-[-50%]', 'before:top-1/2', 'before:translate-x-[-50%]', 'before:transition-all', 'before:duration-300', 'dark:bg-gradient-to-r', 'lg:cursor-pointer',];
     var __VLS_slots;
     var $slots;
     var __VLS_inheritedAttrs;

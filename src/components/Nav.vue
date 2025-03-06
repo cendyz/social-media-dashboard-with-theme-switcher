@@ -6,11 +6,8 @@
 			</h1>
 			<p class="font-w700 text-light-text dark:text-dark-text md:text-[1.7rem]">Total Followers: 23,004</p>
 		</div>
-		<div class="mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem] group">
-			<p
-				class="text-light-text font-w700 dark:text-dark-text dark:group-hover:text-dark-whiteText transition-colors select-none">
-				Dark Mode
-			</p>
+		<div class="mt-[2.3rem] flex justify-between items-center md:gap-x-[1.7rem]" :class="!isLight && 'colorHover'">
+			<p class="text-light-text font-w700 dark:text-dark-text transition-colors select-none:">Dark Mode</p>
 			<button
 				type="button"
 				@click="isLight = !isLight"
@@ -48,4 +45,8 @@ watch(isLight, newValue => {
 })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.colorHover:has(button:hover) p {
+	color: white;
+}
+</style>
